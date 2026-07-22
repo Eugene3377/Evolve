@@ -1,6 +1,6 @@
 # Evolve
 
-A multi-tenant finance operations workspace — expenses, bills, approvals, a
+A multi-tenant finance operations workspace..expenses, bills, approvals, a
 transaction feed, and reporting, all in one place. Built with Next.js (App
 Router), TypeScript, Tailwind CSS, and Supabase (Postgres, Auth, Storage,
 Edge Functions).
