@@ -2,7 +2,7 @@ import { redirect } from "next/navigation";
 import { CheckSquare } from "lucide-react";
 import { requireOrgContext, hasRole } from "@/lib/data/org-context";
 import { listPendingExpenses, listPendingBills } from "@/lib/data/approvals";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardHeader, CardTitle } from "@/components/ui/card";
 import { EmptyState } from "@/components/ui/empty-state";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/field";

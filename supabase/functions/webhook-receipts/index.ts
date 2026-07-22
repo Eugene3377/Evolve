@@ -23,7 +23,7 @@ const SIGNING_SECRET = Deno.env.get("WEBHOOK_SIGNING_SECRET");
 // trusted to write.
 const admin = createClient(SUPABASE_URL, SERVICE_ROLE_KEY);
 
-function verifySignature(req: Request, rawBody: string): boolean {
+function verifySignature(req: Request, _rawBody: string): boolean {
   if (!SIGNING_SECRET) return true; // no secret configured yet — dev mode
   const signature = req.headers.get("x-webhook-signature");
   // Swap in your processor's actual HMAC verification scheme here.

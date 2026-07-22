@@ -76,11 +76,11 @@ export default async function SettingsPage() {
 
       <Card>
         <CardHeader>
-          <CardTitle>What's next</CardTitle>
+          <CardTitle>What&apos;s next</CardTitle>
         </CardHeader>
         <CardContent className="space-y-2 text-sm text-ink-700">
           <p>
-            Evolve's schema and storage layout leave room to grow: corporate
+            Evolve&apos;s schema and storage layout leave room to grow: corporate
             cards, budgets and spend limits, procurement requests, accounting
             sync (QuickBooks, Xero, NetSuite), and deeper analytics can each
             be added as their own modules without reshaping what exists
