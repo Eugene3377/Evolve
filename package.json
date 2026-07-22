@@ -2,7 +2,13 @@
   "name": "evolve-app",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=20.9.0"
+  },
   "scripts": {
+    "check-env": "node scripts/check-env.mjs",
+    "predev": "node scripts/check-env.mjs",
+    "prebuild": "node scripts/check-env.mjs",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
